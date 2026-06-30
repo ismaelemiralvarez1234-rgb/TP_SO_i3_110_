@@ -1,0 +1,17 @@
+A: el master queda con los datos actualizados del equipo CPUBeta.txt
+BETA: agrego mis datos y CPUBeta.txt
+25 minutes ago
+CPUgamma.txt
+GAMMA: modifique datos.txt y cree un CPUgamma.txt en mi rama
+49 minutes ago
+README.md
+Initial commit
+1 hour ago
+datos.txt
+BETA: agrego mis datos
+18 minutes ago
+
+B:sis pude ver sin problemas los cambios realizados
+
+C:lo q debi hacer en el punto 5 fue usar los siguentes comandos:git checkout -b alvarez / cree el archivo von un notepad 
+y los subi con git add beta.txt / git commit -m / git push otigin alvarez
