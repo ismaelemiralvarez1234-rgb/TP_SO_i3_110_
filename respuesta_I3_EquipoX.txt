@@ -1,3 +1,6 @@
+integrantes: 
+Alvarez Ismael
+Aguilar Brandon
 A: el master queda con los datos actualizados del equipo CPUBeta.txt
 BETA: agrego mis datos y CPUBeta.txt
 25 minutes ago
@@ -15,3 +18,20 @@ B:sis pude ver sin problemas los cambios realizados
 
 C:lo q debi hacer en el punto 5 fue usar los siguentes comandos:git checkout -b alvarez / cree el archivo von un notepad 
 y los subi con git add beta.txt / git commit -m / git push otigin alvarez
+
+
+
+respuesta Gamma:
+d- si quedan con los datos actualizados.
+e- durante la practica tuvimos dos incovenientes. primero un error de denegación de acceso error 403 al intentar realizar el push debido a que faltaba aceptar la invitación de la colaboración en el repositorio.
+segundo la terminal de git bash se quedo bloqueada mostrando promp > tras un error de sintaxis al abrir comillas dobles en el mensaje solucionar cancelando el comando con la combinación ctrl+c.
+f-los pasos que llevamos a cabo son:
+1.git checkout main (para ubicarnos en la rama principal)
+2.git pull origin main (para descargar los últimos cambios unificados por el equipo)
+3.git fetch origin (para actualizar el mapa de ramas del repositorio remoto)
+4.git checkout alvarez (para cambiarnos a la rama de trabajo creada por BETA)
+5.notepad beta.txt (para abrir el archivo e incorporar los datos requeridos por la consigna)
+6.git add beta.txt (para registrar los cambios en el área de preparación)
+7.git commit -m "GAMMA: agregue mis datos y la ifconfig al archivo beta.txt" (para confirmar la modificación de forma local)
+8.git push origin alvarez (para subir el archivo modificado de vuelta a la rama del compañero)
+
